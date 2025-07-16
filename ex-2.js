@@ -9,4 +9,13 @@ let isPlatinum;
 
 let hasPromotion;
 
+lastMonthPaidMoreThan4000 = 4001 > 4000;
+isWeekday = false;
+hasBoughtProductFromITCategory = false;
+hasAttendedDiscountEvent = true;
+isPlatinum = false;
+hasPromotion =
+    (lastMonthPaidMoreThan4000 && isWeekday && !hasBoughtProductFromITCategory) || // Con1
+    isPlatinum;
+
 console.log(hasPromotion);
