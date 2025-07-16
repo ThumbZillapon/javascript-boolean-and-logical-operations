@@ -2,7 +2,7 @@
 
 //Start coding here
 const numberA = 100;
-const numberB = "20";
+const numberB = 20;
 
 numberA = 10;
 
